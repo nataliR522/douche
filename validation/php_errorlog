@@ -1,0 +1,21 @@
+[17-Nov-2020 05:55:28 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/monisola/public_html/validation/send_email_2.php on line 98
+[17-Nov-2020 06:20:25 CST6CDT] PHP Parse error:  syntax error, unexpected ',' in /home/monisola/public_html/validation/send_email_2.php on line 4
+[17-Nov-2020 06:22:12 CST6CDT] PHP Parse error:  syntax error, unexpected ',', expecting identifier (T_STRING) in /home/monisola/public_html/validation/send_email_2.php on line 4
+[17-Nov-2020 08:00:18 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/monisola/public_html/validation/send_email_2.php on line 78
+[17-Nov-2020 08:04:24 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/monisola/public_html/validation/send_email_2.php on line 78
+[17-Nov-2020 14:20:17 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function handle_client_attachments_upload() in /home/monisola/public_html/validation/send_email_2.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/monisola/public_html/validation/send_email_2.php on line 25
+[17-Nov-2020 14:22:49 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function hooks() in /home/monisola/public_html/crm/application/helpers/upload_helper.php:1068
+Stack trace:
+#0 /home/monisola/public_html/crm/application/helpers/upload_helper.php(417): get_upload_path_by_type('customer')
+#1 /home/monisola/public_html/validation/send_email_2.php(25): handle_client_attachments_upload(1)
+#2 {main}
+  thrown in /home/monisola/public_html/crm/application/helpers/upload_helper.php on line 1068
+[17-Nov-2020 14:26:26 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function hooks() in /home/monisola/public_html/crm/application/helpers/upload_helper.php:1068
+Stack trace:
+#0 /home/monisola/public_html/crm/application/helpers/upload_helper.php(417): get_upload_path_by_type('customer')
+#1 /home/monisola/public_html/validation/send_email_2.php(26): handle_client_attachments_upload(1)
+#2 {main}
+  thrown in /home/monisola/public_html/crm/application/helpers/upload_helper.php on line 1068

@@ -1,0 +1,9 @@
+
+RewriteEngine on
+AddHandler application/x-httpd-php74 .php .php5 .php4 .php3
+RewriteCond %{HTTP_HOST} ^monartisanrge\.fr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.monartisanrge\.fr$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^validation\/?$ "https\:\/\/crm\.monartisanrge\.fr\/validation" [R=301,L]
+
